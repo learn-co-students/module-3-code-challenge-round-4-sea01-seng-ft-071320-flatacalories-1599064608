@@ -14,14 +14,19 @@
 
 #character-bar span {
   padding: 1%;
-  height: 80%;
+  height: 70%;
   width: 8vw;
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 3vh;
   align-items: center;
   border-radius: 2em;
-  border: 1px solid white;
+  border: 2px solid white;
+}
+
+#character-bar span:hover {
+  background: rgb(88, 131, 180);
 }
 
 .characterInfo{
